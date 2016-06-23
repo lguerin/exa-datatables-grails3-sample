@@ -62,7 +62,7 @@ dependencies {
     testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
 
     // Exa Datatables plugin
-    runtime "fr.exanpe.grails:exa-datatables:2.0.0-SNAPSHOT"
+    runtime "fr.exanpe.grails:exa-datatables:2.0.0"
 }
 
 task wrapper(type: Wrapper) {
