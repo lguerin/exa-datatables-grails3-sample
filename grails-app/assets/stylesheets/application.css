@@ -1,0 +1,38 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require bootstrap
+*= require exa-datatables-bootstrap3
+*= require grails
+*= require main
+*= require mobile
+*= require_self
+*/
+
+/**
+ * Disable some Grails CSS pagination styles
+ */
+
+.pagination {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+div.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: transparent;
+}
+
+.pagination a:hover, .pagination a:focus,
+.pagination .currentStep {
+    text-shadow: none;
+}
+
+
